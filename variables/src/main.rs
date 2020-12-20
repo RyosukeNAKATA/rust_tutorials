@@ -1,9 +1,9 @@
 fn main() {
-    let x = 5;
-    
-    let x = x + 1;
-    
-    let x = x * 2;
+    let a = [1, 2, 3, 4, 5];
 
-    println!("The value of x is: {}", x);
+    let index = 10;
+
+    let element = a[index];
+
+    println!("The value of element is: {}", element);
 }
